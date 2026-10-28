@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Danh bạ</string>
+
+    <!-- Đăng nhập -->
+    <string name="login_title">Đăng nhập</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="err_empty_login">Vui lòng nhập tên đăng nhập và mật khẩu</string>
+    <string name="err_wrong_login">Sai tên đăng nhập hoặc mật khẩu</string>
+
+    <!-- Danh sách -->
+    <string name="list_greeting">Xin chào, %1$s</string>
+    <string name="list_stats">Tổng: %1$d liên hệ  •  Yêu thích: %2$d</string>
+    <string name="list_empty">Chưa có liên hệ nào</string>
+    <string name="btn_add_contact">Thêm liên hệ</string>
+
+    <!-- Thêm liên hệ -->
+    <string name="add_title">Thêm liên hệ</string>
+    <string name="hint_fullname">Họ và tên</string>
+    <string name="hint_phone">Số điện thoại (10 số, bắt đầu bằng 0)</string>
+    <string name="label_group">Nhóm</string>
+    <string name="label_gender">Giới tính</string>
+    <string name="gender_male">Nam</string>
+    <string name="gender_female">Nữ</string>
+    <string name="gender_other">Khác</string>
+    <string name="cb_favorite">Yêu thích</string>
+    <string name="hint_note">Ghi chú (không bắt buộc)</string>
+    <string name="btn_save">Lưu liên hệ</string>
+    <string name="err_name_empty">Họ và tên không được để trống</string>
+    <string name="err_phone_invalid">Số điện thoại phải gồm 10 chữ số và bắt đầu bằng 0</string>
+    <string name="err_phone_exists">Số điện thoại này đã tồn tại trong danh bạ</string>
+    <string name="toast_added">Đã thêm liên hệ</string>
+
+    <!-- Chi tiết -->
+    <string name="detail_group">Nhóm: %1$s</string>
+    <string name="detail_gender">Giới tính: %1$s</string>
+    <string name="detail_note">Ghi chú: %1$s</string>
+    <string name="detail_no_note">Ghi chú: (không có)</string>
+    <string name="btn_call">Gọi điện</string>
+    <string name="btn_back">Quay lại</string>
+    <string name="btn_delete">Xóa liên hệ</string>
+    <string name="err_no_dialer">Không tìm thấy ứng dụng quay số</string>
+    <string name="dialog_delete_title">Xóa liên hệ</string>
+    <string name="dialog_delete_message">Bạn có chắc muốn xóa \"%1$s\"?</string>
+    <string name="dialog_cancel">Hủy</string>
+    <string name="toast_deleted">Đã xóa liên hệ</string>
+
+    <string-array name="groups">
+        <item>Gia đình</item>
+        <item>Bạn bè</item>
+        <item>Công việc</item>
+        <item>Khác</item>
+    </string-array>
+</resources>
